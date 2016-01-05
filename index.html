@@ -337,7 +337,7 @@
 <form action="" novalidate>
     <div id="login-details">
         <p>
-            <input type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
+            <input type="hidden" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
         </p>
         <div id="login-credentials">
             <p>
@@ -348,7 +348,7 @@
             </p>
         </div>
         <p>
-            <input type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
+            <!--input type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>"-->
             <input type="button" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
         </p>
     </div>
