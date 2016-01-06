@@ -109,6 +109,12 @@
         function handleOpenURL(url) {
             MM._appLaunchedByURL(url);
         }
+        
+        $(document).ready(function(){
+
+      $("#addsitebutton").click();
+
+ });
     </script>
 
     <style id="mobilecssurl"></style>
@@ -353,11 +359,7 @@
         </p>
     </div>
 </form>
-$(document).ready(function(){
 
-      $("#addsitebutton").click();
-
- });
 <div id= "helplogin">
     <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
     <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
