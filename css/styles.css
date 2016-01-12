@@ -357,9 +357,9 @@ hr {
 }
 #add-site h1 img,
 #manage-accounts h1 img {
-  width: 133px;
+  width: 150px;
   height: auto;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 #add-site form {
   *zoom: 1;
