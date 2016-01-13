@@ -601,7 +601,7 @@ hr {
 }
 .user-menu header {
   padding: 10px;
-  background: #fa8f1c;
+  background: #C50F35/*#fa8f1c*/;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
