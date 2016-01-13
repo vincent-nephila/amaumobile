@@ -459,7 +459,7 @@ hr {
 }
 #manage-accounts .account-details img,
 #app-dialog .account-details img {
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   float: left;
 }
 #manage-accounts .account-details div,
@@ -608,7 +608,7 @@ hr {
 .user-menu header .img img {
   width: 55px;
   height: 55px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
 }
 .user-menu header h1 {
   font-size: 20px;
