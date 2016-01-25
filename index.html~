@@ -163,8 +163,8 @@
 </div>
 
 <script type="text/template" id="menu_template">
-<header>
-    <div class="media">
+<header style="backgroud-color:#FFFFFF!important; color:#000000!important;">
+    <div class="media" style="backgroud-color:white!important; color:black!important;">
         <div class="refresh app-ico">
             <a href="#refresh">
                 <img width="16" height="16" src="img/reload.png" border="0">
@@ -174,7 +174,7 @@
             <img src="<%= MM.util.getMoodleFilePath(user.profileimageurl) %>" border="0">
         </div>
         <div class="bd">
-            <h1><%= user.fullname %></h1>
+            <h1 color="green"><%= user.fullname %></h1>
         </div>
     </div>
 </header>
@@ -272,8 +272,8 @@
     <% }); %>
 </ul>
 
-/*<ul id="general-menu" class="nav nav-v js-accordion">
-    <li class="nav-item no-arrow">
+<ul id="general-menu" class="nav nav-v js-accordion">
+    <!--li class="nav-item no-arrow">
         <a href="<%= siteurl%>" target="_blank" class="touch-row">
             <span class="plugin-ico app-ico"><img src="img/ico-network.png" border="0"></span>
             <%= MM.lang.s("website") %>
@@ -290,7 +290,7 @@
             <span class="plugin-ico app-ico"><img src="img/ico-settings.png" border="0"></span>
             <%= MM.lang.s("settings") %>
         </a>
-    </li>*/
+    </li-->
     <li class="nav-item no-submenu">
         <a href="#logout" class="touch-row">
             <span class="plugin-ico app-ico"><img src="img/logout.png" border="0"></span>
@@ -356,7 +356,7 @@
 
 <div id= "helplogin">
     <a href="http://portal.amauonline.com/password/email"><%= MM.lang.s("icantlogin") %></a>
-    <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
+    <!--a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a-->
 </div>
 </script>
 
