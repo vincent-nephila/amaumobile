@@ -432,7 +432,7 @@ hr {
   display: none;
 }
 #add-site #helplogin a {
-  color: #ffffff;
+  color: rgba(50, 37, 37, 1)/*#ffffff*/;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   letter-spacing: .5px;
   display: inline-block;
