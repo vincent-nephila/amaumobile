@@ -276,13 +276,25 @@
 </ul>
 
 <ul id="general-menu" class="nav nav-v js-accordion">
-    <!--li class="nav-item no-arrow">
-        <a href="<%= siteurl%>" target="_blank" class="touch-row">
-            <span class="plugin-ico app-ico"><img src="img/ico-network.png" border="0"></span>
-            <%= MM.lang.s("website") %>
+    <li class="nav-item">
+        <a class="toogler expand touch-row section-header">
+            <span class="plugin-ico app-ico"><img src="img/ico-help.png" border="0"></span>
+            <%= MM.lang.s("help") %>
         </a>
+        <ul class="nav submenu">
+            <li class="nav-item">
+                <a href="mailto:email@gmail.com" class="touch-row">
+                    <div class="plugin-ico app-ico">
+                			<img src="img/ico-help.png" border="0">
+            		  </div>
+                    <div class="plugin-name">
+                        <%=  MM.lang.s("courseadmin")%>
+                    </div>
+                </a>
+           </li>
+        </ul>
     </li>
-    <li class="nav-item no-arrow">
+    <!--li class="nav-item no-arrow">
         <a href="<%= docsurl %>" target="_blank" class="touch-row">
             <span class="plugin-ico app-ico"><img src="img/ico-help.png" border="0"></span>
             <%= MM.lang.s("help") %>
