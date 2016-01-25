@@ -283,15 +283,27 @@
         </a>
         <ul class="nav submenu">
             <li class="nav-item">
-                <a href="mailto:email@gmail.com" class="touch-row">
-                    <div class="plugin-ico app-ico">
-                			<img src="img/ico-help.png" border="0">
-            		  </div>
+                <a href="mailto:courseadmin@amauonline.com" class="touch-row">
                     <div class="plugin-name">
                         <%=  MM.lang.s("courseadmin")%>
                     </div>
                 </a>
            </li>
+           <li class="nav-item">
+                <a href="mailto:helpdesk@amauonline.com" class="touch-row">
+                    <div class="plugin-name">
+                        <%=  MM.lang.s("helpdesk")%>
+                    </div>
+                </a>
+           </li>
+           <li class="nav-item">
+                <a href="mailto:customer@amauonline.com" class="touch-row">
+                    <div class="plugin-name">
+                        <%=  MM.lang.s("customer")%>
+                    </div>
+                </a>
+           </li>
+
         </ul>
     </li>
     <!--li class="nav-item no-arrow">
