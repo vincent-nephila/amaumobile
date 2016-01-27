@@ -515,6 +515,7 @@ hr {
   overflow: hidden;
   background: #C50F35/*#fa8f1c*/;
   border-bottom: 0;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
 }
 .header-main .nav-main {
   float: left;
