@@ -411,8 +411,7 @@ var MM = {
     },
 
     _displayAddSite: function() {
-        //$('#manage-accounts').css('display', 'none');
-        $('#main-wrapper').css('display', 'none');
+        $('#manage-accounts').css('display', 'none');
         $('#add-site').css('display', 'block');
         $('#url').focus();
         MM._expandAddSiteForm();
