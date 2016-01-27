@@ -508,14 +508,13 @@ hr {
   position: fixed;
   margin-bottom: 44px;
 }
-.header-main {
+.header-main { 
   color: #ffffff;
   height: 44px;
   line-height: 44px;
   overflow: hidden;
   background: #C50F35/*#fa8f1c*/;
   border-bottom: 0;
-  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
 }
 .header-main .nav-main {
   float: left;
@@ -600,11 +599,11 @@ hr {
   padding-bottom: 40px;
   height: auto;
 }
-.user-menu header {
+.user-menu header { /*main menu header*/
   padding: 10px;
   background: #C50F35/*#fa8f1c*/;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: none;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
 }
 .user-menu header .img img {
   width: 55px;
