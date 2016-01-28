@@ -192,8 +192,8 @@
         <ul class="nav submenu">
             <% _.each(courses, function(course) { %>
             <li class="nav-item">
-                <a href="#" class="toogler expand touch-row">
-                    <div class="plugin-ico app-ico">&nbsp;&nbsp;&nbsp;
+                <a href="#" class="toogler expand touch-row">&nbsp;&nbsp;&nbsp;
+                    <div class="plugin-ico app-ico">
                 			<img src="img/ico-book.png" border="0">
             		  </div>
                     <div class="plugin-name">
