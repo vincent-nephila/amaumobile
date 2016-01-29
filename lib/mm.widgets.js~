@@ -132,13 +132,13 @@ MM.widgets = {
      * @param  {String} path  iframe's source.
      */
     renderIframeModal: function(title, path) {
-        var height = $(window).height();
-        var iframestyle = 'border: none; width: 100%; height: 100%;';
+        var height = $(window).height()-200;
+        var iframestyle = 'border: none; width: 0%; height: 100%;';
         var iframe = '<iframe id="page-view-iframe" style="' + iframestyle + '" src="' + path + '">';
-        iframe += path+'</iframe>';
+        iframe += '</iframe>';
         var divstyle = 'overflow-y: scroll; -webkit-overflow-scrolling: touch; height: ' + height + 'px';
         
-        var content = '<div style="' + divstyle + '">' + iframe + '</div>';
+        var content = '<div style="' + divstyle + '">' + iframe + path+'</div>';
 
         var options = {
             title: title,
@@ -173,7 +173,7 @@ MM.widgets = {
      */
     renderIframeModalContents: function(title, html) {
 
-        var height = $(window).height();
+        var height = $(window).height()-200;
         var iframestyle = 'border: none; width: 100%; height: 100%';
         var iframe = '<iframe id="page-view-iframe" style="' + iframestyle + '">';
         iframe += '</iframe>';
