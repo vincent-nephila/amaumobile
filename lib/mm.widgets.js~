@@ -132,7 +132,7 @@ MM.widgets = {
      * @param  {String} path  iframe's source.
      */
     renderIframeModal: function(title, path) {
-        var height = $(window).height() - 200;
+        var height = $(window).height();
         var iframestyle = 'border: none; width: 100%; height: 100%';
         var iframe = '<iframe id="page-view-iframe" style="' + iframestyle + '" src="' + path + '">';
         iframe += '</iframe>';
