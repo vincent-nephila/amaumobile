@@ -90,7 +90,7 @@ define(templates, function (viewTpl, dialogTpl) {
             var data = {
                 path: path
             };
-            var title = MM.tpl.render(MM.plugins.page.templates.dialog.html, data);
+            var title = MM.tpl.render(MM.plugins.page.templates.view.html, data);
 
             MM.widgets.renderIframeModal(title, path);
             if (parseInt(instance) > 0) {
